@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "extensionHost",
+            "request": "launch",
+            "name": "Launch Extension",
+            "runtimeExecutable": "${execPath}",
+            "env": {
+                "TSS_DEBUG":"5859",
+                "TSS_LOG":"-level verbose -file ${workspaceFolder}/logs/typescript-server.log"
+            },
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Attach",
+            "port": 5859,
+            "protocol": "inspector",
+            "sourceMaps": true
+        }
+    ]
+}
