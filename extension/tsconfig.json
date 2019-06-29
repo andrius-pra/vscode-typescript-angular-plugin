@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "incremental": true,
+        "composite": true,
+        "module": "commonjs",
+        "target": "es2019",
+        "moduleResolution": "node",
+        "declaration": true,
+        "declarationMap": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "tsBuildInfoFile": "./dist/tsbuild.info",
+        "baseUrl": "./",
+    }
+}
