@@ -50,6 +50,6 @@
         "vsce": "^1.62.0"
     },
     "peerDependencies": {
-        "diff": "4.0.1"
+        "diff": "^4.0.1"
     }
 }
