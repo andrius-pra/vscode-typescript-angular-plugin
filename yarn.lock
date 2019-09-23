@@ -2,10 +2,9 @@
 # yarn lockfile v1
 
 
-"@angular/language-service@9.0.0-next.4":
-  version "9.0.0-next.4"
-  resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-9.0.0-next.4.tgz#c5bff15001b27193b63772259a3467945177e749"
-  integrity sha512-aoRA3FUSnZbw/kb30uRmJDlqgYIfwqnMHlvwxS7q7IdrfteM27cpDrYVBvK5OfqA+dtyjXa8OFIhrhnvBE1wrQ==
+"@angular/language-service@https://npmpackages.blob.core.windows.net/andrius-pra/language-service-9.0.0-next.7+23.sha-3234872-experimental.tgz":
+  version "9.0.0-next.7"
+  resolved "https://npmpackages.blob.core.windows.net/andrius-pra/language-service-9.0.0-next.7+23.sha-3234872-experimental.tgz#3f3b2537505821e71c71723ac287066e135fd00b"
 
 "@types/node@*":
   version "12.7.3"
@@ -873,10 +872,9 @@ typed-rest-client@1.2.0:
     tunnel "0.0.4"
     underscore "1.8.3"
 
-typescript@3.6.2:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.6.2.tgz#105b0f1934119dde543ac8eb71af3a91009efe54"
-  integrity sha512-lmQ4L+J6mnu3xweP8+rOrUwzmN+MRAj7TgtJtDaXE5PMyX2kCrklhg3rvOsOIfNeAWMQWO2F1GPc1kMD2vLAfw==
+"typescript@https://npmpackages.blob.core.windows.net/andrius-pra/typescript-3.6.2-experimental-plugin-external-files.20190829.tgz":
+  version "3.6.2-experimental-plugin-external-files.20190829"
+  resolved "https://npmpackages.blob.core.windows.net/andrius-pra/typescript-3.6.2-experimental-plugin-external-files.20190829.tgz#c29a0caa55465122a044f1dafd0bdb22a1e69cab"
 
 uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.6"
