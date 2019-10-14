@@ -1,6 +1,6 @@
 {
     "name": "vscode-typescript-angular-plugin",
-    "version": "0.900.0-next.7",
+    "version": "0.900.0-next.10",
     "repository": {
         "type": "git",
         "url": "https://github.com/andrius-pra/vscode-typescript-angular-plugin"
@@ -42,7 +42,7 @@
         "dist": "tsc -p ./extension/ && vsce package"
     },
     "dependencies": {
-        "@angular/language-service": "https://npmpackages.blob.core.windows.net/andrius-pra/language-service-9.0.0-next.7+23.sha-3234872-experimental.tgz"
+        "@angular/language-service": "https://npmpackages.blob.core.windows.net/andrius-pra/language-service-9.0.0-next.10+55.sha-8f70d7e-experimental.tgz"
     },
     "devDependencies": {
         "typescript": "https://npmpackages.blob.core.windows.net/andrius-pra/typescript-3.6.2-experimental-plugin-external-files.20190829.tgz",
