@@ -1,6 +1,6 @@
 {
     "name": "vscode-typescript-angular-plugin",
-    "version": "0.900.0-rc5",
+    "version": "0.900.0-rc7",
     "icon": "angular.png",
     "description": "Typescript plugin for angular templates",
     "repository": {
@@ -44,7 +44,7 @@
         "dist": "tsc -p ./extension/ && vsce package"
     },
     "dependencies": {
-        "@angular/language-service": "https://npmpackages.blob.core.windows.net/andrius-pra/language-service-9.0.0-rc.5-experimental.tgz"
+        "@angular/language-service": "https://npmpackages.blob.core.windows.net/andrius-pra/language-service-9.0.0-rc.7+530.sha-fae561d-experimental.tgz"
     },
     "devDependencies": {
         "typescript": "https://npmpackages.blob.core.windows.net/andrius-pra/typescript-3.6.4-experimental-plugin-external-files.20191113.tgz",
