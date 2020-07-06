@@ -1,6 +1,6 @@
 {
     "name": "vscode-typescript-angular-plugin",
-    "version": "0.900.0-rc7",
+    "version": "1.0.0",
     "icon": "angular.png",
     "description": "Typescript plugin for angular templates",
     "repository": {
@@ -10,7 +10,7 @@
     "publisher": "andrius-pra",
     "author": "andrius-pra",
     "engines": {
-        "vscode": "^1.36.0"
+        "vscode": "^1.46.0"
     },
     "categories": [
         "Programming Languages"
@@ -35,7 +35,18 @@
                     "html"
                 ]
             }
-        ]
+        ],
+        "configuration": {
+            "title": "Typescript plugin for angular templates",
+            "properties": {
+                "typescript-plugins.suggest.enabled": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enabled/disable autocomplete suggestions for external files.",
+                    "scope": "resource"
+                }
+            }
+        }
     },
     "scripts": {
         "vscode:prepublish": "tsc -p ./extension",
@@ -44,14 +55,11 @@
         "dist": "tsc -p ./extension/ && vsce package"
     },
     "dependencies": {
-        "@angular/language-service": "https://npmpackages.blob.core.windows.net/andrius-pra/language-service-9.0.0-rc.7+542.sha-495a4bc-experimental.tgz"
+        "@angular/language-service": "^10.0.2"
     },
     "devDependencies": {
-        "typescript": "https://npmpackages.blob.core.windows.net/andrius-pra/typescript-3.6.4-experimental-plugin-external-files.20191113.tgz",
-        "vsce": "^1.70.0",
-        "vscode": "^1.1.36"
-    },
-    "peerDependencies": {
-        "diff": "^4.0.1"
+        "typescript": "https://npmpackages.blob.core.windows.net/andrius-pra/typescript-3.9.6-experimental.20200706.tgz",
+        "vsce": "^1.77.0",
+        "vscode": "^1.1.37"
     }
 }
